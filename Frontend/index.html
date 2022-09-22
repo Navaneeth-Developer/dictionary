@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary</title>
+    <link rel="stylesheet" href="./bootstrap/fonts/css/fontawesome.min.css">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css" l>
+    <link rel="stylesheet" href="./bootstrap/css/mdb.css" l>
+    <link rel="stylesheet" href="./bootstrap/css/style.css" l>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="card position">
+            <div class="card-header">
+                <h1 >Find meaning here</h1>
+            </div>
+            <div class="card-body">
+                <label for="keyword" class="lead">Enter the word:</label>
+                <input type="text" name="keyword" id="keyword" class="form-control" placeholder="Enter the word"><br>
+                <input type="submit" class="btn btn-success" onclick="helloWorld()">
+            </div>
+            <div class="card-footer">
+                <p id="partOfSpeech" class="lead"></p>
+                <p id="meaning" class="lead"></p>
+            </div>
+        </div>
+        
+        
+        <script src="./bootstrap/js/jquery.js"></script>
+        <script src="./bootstrap/js/popper.js"></script>
+        <script src="./bootstrap/fonts/js/all.min.js"></script>
+        <script src="./bootstrap/js/bootstrap.js"></script>
+        <script src="./bootstrap/js/mdb.js"></script>
+        <script src="./request.js"></script>
+
+    </div>
+
+
+    
+
+</body>
+
+</html>
